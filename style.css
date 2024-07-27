@@ -1,0 +1,60 @@
+body{
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  font-family: "Kanit", sans-serif;
+  background-color: #009494;
+  text-align: center;
+  background-image:url('Main/backgorund/background.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+  
+}
+
+blockquote{
+
+  color: black;
+  animation: fadeBackground 15s;
+}
+
+@keyframes Rainbow {
+  from { background-color: purple; }
+  to { background-color: #0084ff; }
+}
+
+.quote{
+  animation: Rainbow 60s infinite;
+}
+
+@keyframes fadeBackground {
+  from { color: black; }
+  to { color: white; }
+}
+
+ul{
+  background-color: #a59eff;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  border-color: white;
+  border-style: dotted;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: #0084ff;
+}
+
+p{
+  color: white;
+}
+
+.main{
+
+  background-color: #0084ff;
+  text-align: center;
+}
