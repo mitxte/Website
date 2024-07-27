@@ -15,7 +15,7 @@ body{
 blockquote{
 
   color: black;
-  animation: fadeBackground 15s;
+  animation: fadeBackground 15s infinite;
 }
 
 @keyframes Rainbow {
